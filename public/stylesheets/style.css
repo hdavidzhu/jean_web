@@ -1,8 +1,64 @@
+* {
+	/*border: 1px solid black;*/
+}
+
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px 'Oxygen', "Lucida Grande", Helvetica, Arial, sans-serif;
+  width: 1200px;
+  margin: auto;
 }
 
 a {
   color: #00B7FF;
+}
+
+.header {
+	margin: auto;
+	margin-top: 20px;
+
+}
+
+.logo {
+	width: 45%;
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 48px;
+	/*background-color: #56FE7E;*/
+	display: inline-block;
+}
+
+.sublogo {
+	text-align: center;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 18px;
+	color: #353535;
+}
+
+.tabholder {
+	width: 54%;
+	float: right;
+	font-family: 'Oxygen', sans-serif;
+	vertical-align: auto;
+	margin-top: 30px;
+}
+
+.tab {
+	border: 1px solid gray;
+	width: 18%;
+	float: right;
+	text-align: center;
+	font-size: 16px;
+	margin: 3px;
+	border-radius: 8px;
+}
+
+.tablink {
+	color: black;
+	text-decoration: none;
+}
+
+.slideshow {
+	margin-top: 20px;
+	height: 400px;
+	text-align: center;
+	background-image: url("http://newscenter.lbl.gov/wp-content/uploads/ecoli-detailed-bright1.jpg");
 }

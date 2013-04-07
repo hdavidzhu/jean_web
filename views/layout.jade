@@ -1,7 +1,24 @@
 doctype 5
 html
-  head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
-    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Julius+Sans+One|Oxygen:300', type='text/css')
-    block content
+	head
+		title= title
+		link(rel='stylesheet', href='/stylesheets/style.css')
+		link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Julius+Sans+One|Oxygen:300', type='text/css')
+		script(src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js")
+	body
+		//- header
+		div.header
+			div.logo J. Huang Laboratory
+				div.sublogo Franklin W. Olin College of Engineering
+			div.tabholder
+				a.tablink(href="/news")
+					div.tab news
+				a.tablink.publications(href="http://www.nature.com/", target="_blank")
+					div.tab publications
+				a.tablink(href="/lab_members")
+					div.tab lab members
+				a.tablink(href="/research")
+					div.tab research
+				a.tablink(href="/")
+					div.tab about
+		block content

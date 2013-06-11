@@ -19,6 +19,6 @@ exports.lab_members = function(req, res){
   res.render('lab_members', { title: 'Lab Members | Huang Lab' });
 };
 
-exports.news = function(req, res){
-  res.render('news', { title: 'News | Huang Lab' });
+exports.biocast = function(req, res){
+  res.render('biocast', { title: 'BioCast | Huang Lab' });
 };

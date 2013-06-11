@@ -1,6 +1,10 @@
+/*UNIVERSAL*/
+
 * {
 	/*border: 1px solid black;*/
 }
+
+/*GENERAL*/
 
 body {
   font: 14px 'Oxygen', "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -17,6 +21,8 @@ a {
 	margin-top: 20px;
 
 }
+
+/*HEADER*/
 
 .logo {
 	width: 45%;
@@ -56,9 +62,19 @@ a {
 	text-decoration: none;
 }
 
+/*SLIDESHOW*/
+
 .slideshow {
 	margin-top: 20px;
 	height: 400px;
 	text-align: center;
 	background-image: url("http://newscenter.lbl.gov/wp-content/uploads/ecoli-detailed-bright1.jpg");
+}
+
+/*YOUTUBE*/
+
+.youtube_video {
+	margin: auto;
+	width: 853px;
+	margin-top: 20px;
 }

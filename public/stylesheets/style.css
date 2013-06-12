@@ -16,13 +16,13 @@ a {
   color: #00B7FF;
 }
 
+/*HEADER*/
+
 .header {
 	margin: auto;
 	margin-top: 20px;
-
+	margin-bottom: 80px;
 }
-
-/*HEADER*/
 
 .logo {
 	width: 45%;
@@ -65,10 +65,45 @@ a {
 /*SLIDESHOW*/
 
 .slideshow {
-	margin-top: 20px;
 	height: 400px;
 	text-align: center;
 	background-image: url("http://newscenter.lbl.gov/wp-content/uploads/ecoli-detailed-bright1.jpg");
+}
+
+/*LAB MEMBERS*/
+
+.person {
+	margin: auto;
+	width: 1000px;
+	display: block;
+	height: 320px;
+}
+
+.transparent_picture {
+	width: 300px;
+	/*float: left;*/
+	border: 3px solid black;
+	position: absolute;
+	z-index: 1;
+}
+
+.person_picture {
+	width: 300px;
+	float: left;
+	border: 3px solid black;
+	position: absolute;
+	z-index: 200;
+}
+
+.person_name {
+	margin-left:350px;
+	font-size: 36px;
+	color: gray	;
+}
+
+.person_description {
+	color: gray	;
+	margin-left:360px;
 }
 
 /*YOUTUBE*/
@@ -76,7 +111,6 @@ a {
 .youtube_video {
 	margin: auto;
 	width: 853px;
-	margin-top: 20px;
 }
 
 .youtube_button {

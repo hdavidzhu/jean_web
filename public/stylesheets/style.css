@@ -10,6 +10,8 @@ body {
   font: 14px 'Oxygen', "Lucida Grande", Helvetica, Arial, sans-serif;
   width: 1200px;
   margin: auto;
+  overflow: scroll;
+  overflow-x:hidden;
 }
 
 a {
@@ -20,11 +22,17 @@ a {
 
 .header {
 	margin: auto;
-	margin-top: 20px;
-	margin-bottom: 80px;
+	height: 120px;
+	width: 1200px;
+	position: fixed;
+	top: 200;
+	left: 200;
+	z-index: 5000;
+	background-color: white;
 }
 
 .logo {
+	margin-top: 20px;
 	width: 45%;
 	font-family: 'Julius Sans One', sans-serif;
 	font-size: 48px;
@@ -55,11 +63,16 @@ a {
 	font-size: 16px;
 	margin: 3px;
 	border-radius: 8px;
+	margin-top: 20px;
 }
 
 .tablink {
 	color: black;
 	text-decoration: none;
+}
+
+.header_background {
+	height: 150px;
 }
 
 /*SLIDESHOW*/
@@ -84,7 +97,7 @@ a {
 	/*float: left;*/
 	border: 3px solid black;
 	position: absolute;
-	z-index: 1;
+	z-index: 20;
 }
 
 .person_picture {
@@ -92,7 +105,7 @@ a {
 	float: left;
 	border: 3px solid black;
 	position: absolute;
-	z-index: 200;
+	z-index: 1;
 }
 
 .person_name {
@@ -111,6 +124,7 @@ a {
 .youtube_video {
 	margin: auto;
 	width: 853px;
+	z-index: 1;
 }
 
 .youtube_button {

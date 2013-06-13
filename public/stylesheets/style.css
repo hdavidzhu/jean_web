@@ -26,8 +26,8 @@ a {
 	height: 120px;
 	width: 1200px;
 	position: fixed;
-	top: 200;
-	left: 200;
+	top: 200px;
+	left: 200px;
 	z-index: 5000;
 	background-image: url("https://lh6.googleusercontent.com/-1I78qeTzKYU/UboPOgicdkI/AAAAAAAAAJA/Utk13ye9NgE/s410-no/fabric_of_squares_gray.png");
 }

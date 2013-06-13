@@ -12,6 +12,7 @@ body {
   margin: auto;
   overflow: scroll;
   overflow-x:hidden;
+  background-image: url("https://lh6.googleusercontent.com/-1I78qeTzKYU/UboPOgicdkI/AAAAAAAAAJA/Utk13ye9NgE/s410-no/fabric_of_squares_gray.png");
 }
 
 a {
@@ -28,7 +29,7 @@ a {
 	top: 200;
 	left: 200;
 	z-index: 5000;
-	background-color: white;
+	background-image: url("https://lh6.googleusercontent.com/-1I78qeTzKYU/UboPOgicdkI/AAAAAAAAAJA/Utk13ye9NgE/s410-no/fabric_of_squares_gray.png");
 }
 
 .logo {

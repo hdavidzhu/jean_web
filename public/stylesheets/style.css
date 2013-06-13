@@ -36,7 +36,6 @@ a {
 	width: 45%;
 	font-family: 'Julius Sans One', sans-serif;
 	font-size: 48px;
-	/*background-color: #56FE7E;*/
 	display: inline-block;
 }
 
@@ -45,6 +44,7 @@ a {
 	font-family: 'Oxygen', sans-serif;
 	font-size: 18px;
 	color: #353535;
+
 }
 
 .tabholder {
@@ -64,6 +64,14 @@ a {
 	margin: 3px;
 	border-radius: 8px;
 	margin-top: 20px;
+}
+
+.green {
+	border: 1px solid green;
+    cursor:pointer;
+    background-color: #42A000;
+    opacity: 0.8;
+    color: white;
 }
 
 .tablink {
@@ -149,4 +157,9 @@ a {
   margin: auto;
   margin-top: 20px;
   border-radius: 10px;
+}
+
+.white_text {
+	color: white;
+	text-decoration: none;
 }

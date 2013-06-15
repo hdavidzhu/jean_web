@@ -1,4 +1,10 @@
-jean_web
+Huang Lab Research Website | A How-To Operate Guide
 =========
 
-Research website
+TABLE OF CONTENTS
+	PAGES
+		ABOUT
+		RESEARCH
+		LAB MEMBERS
+		PUBLICATIONS
+		BIOCAST

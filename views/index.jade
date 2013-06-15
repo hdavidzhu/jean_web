@@ -2,19 +2,17 @@ extends layout
 
 block content
 
-	div.slideshow
-
 	div#slideshow-div.rs-slideshow
 		//- Set up an initial slide -- this provides an image for users without JavaScript
 		div.slide-container
-			img(src='http://images6.fanpop.com/image/photos/33400000/Cute-Cats-cats-33440930-1280-800.jpg', alt="The first image in a slideshow demo.", title="This is the first slide")
+			img#first_picture(src='http://img.jogtheweb.com/users_avatars/ist2_9678853-nasty-germ-microbe.jpg', alt="The first image in a slideshow demo.", title="TestTestTest")
 		//- This list contains data about each slide.
 		//- So that the slide images arent' loaded with the page, we can use 'a' tags.
 		//- With some extra CSS rules, this allows for usres without JavaScript to access the image by clicking the links.
 		ol.slides
 			li
-				a(href="http://images6.fanpop.com/image/photos/33400000/Cute-Cats-cats-33440930-1280-800.jpg") Something
+				a(href="http://images6.fanpop.com/image/photos/33400000/Cute-Cats-cats-33440930-1280-800.jpg", title="TestTestTest") Something
 			li
-				a(href="http://images4.fanpop.com/image/photos/16100000/-cats-16140154-1920-1080.jpg") Something
+				a(href="http://img.jogtheweb.com/users_avatars/ist2_9678853-nasty-germ-microbe.jpg", title="TestTestTest") Something
 			li
-				a(href="http://images5.fanpop.com/image/photos/28300000/Bear-and-Cat-Wallpaper-cats-28362989-1280-1024.jpg") Something
+				a(href="http://images5.fanpop.com/image/photos/28300000/Bear-and-Cat-Wallpaper-cats-28362989-1280-1024.jpg", title="TestTestTest") Something

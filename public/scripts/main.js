@@ -9,7 +9,7 @@ $(document).ready( function() {
   $('#slideshow-div').rsfSlideshow({
     interval: 5,
     transition: 500,
-    effect: 'slideLeft'
+    // effect: 'slideLeft'
   });
 
   // Makes youtube button turn green when hovered.

@@ -22,3 +22,7 @@ exports.lab_members = function(req, res){
 exports.biocast = function(req, res){
   res.render('biocast', { title: 'BioCast | Huang Lab' });
 };
+
+exports.easter_egg = function(req, res){
+  res.render('easter_egg', { title: 'Easter Egg! | Huang Lab' });
+};

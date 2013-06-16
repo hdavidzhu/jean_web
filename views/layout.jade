@@ -10,7 +10,8 @@ html
 	body
 		//- header
 		div.header
-			div.logo J. Huang Laboratory
+			div.logo 
+				a.tablink(href="/") J. Huang Laboratory
 				div.sublogo 
 					a.tablink(href="http://www.olin.edu/", target="_blank") Franklin W. Olin College of Engineering
 			div.tabholder
@@ -24,5 +25,7 @@ html
 					div.tab research
 				a.tablink(href="/")
 					div.tab about
-		div.header_background
+		a(href="/easter_egg", target="_blank")
+			div.easter_egg
+				img(src="http://i.imgur.com/f858KVX.png", height="30")
 		block content

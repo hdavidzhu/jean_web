@@ -26,3 +26,13 @@ exports.biocast = function(req, res){
 exports.easter_egg = function(req, res){
   res.render('easter_egg', { title: 'Easter Egg! | Huang Lab' });
 };
+
+exports.render_edit_about = function(req, res) {
+	res.render('edit_about', { title: 'Edit About Text'});
+}
+
+exports.edit_about = function(req, res) {
+	console.log("Post request!");
+	var kittens = req.body.text;
+	res.redirect('/');
+}

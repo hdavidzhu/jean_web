@@ -3,6 +3,9 @@
  * GET users listing.
  */
 
+var models = require('../models');
+var TextBlock = models.TextBlock;
+
 exports.list = function(req, res){
   res.send("respond with a resource");
 };
@@ -33,6 +36,13 @@ exports.render_edit_about = function(req, res) {
 
 exports.edit_about = function(req, res) {
 	console.log("Post request!");
-	var kittens = req.body.text;
+  var about = new TextBlock({'name': 'about', 'text': req.body.text});
+  about.save( function (err) {
+    if (err) {
+      consloe.log(err);
+    } else {
+      console.log("Save successful.");
+    }
+  })
 	res.redirect('/');
 }
